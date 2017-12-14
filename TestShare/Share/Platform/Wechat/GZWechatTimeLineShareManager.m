@@ -11,6 +11,10 @@
 @implementation GZWechatTimeLineShareManager
 
 - (void)shareModel:(GZWebPageShareModel *)shareModel{
-    NSLog(@"微信朋友圈分享");
+    NSLog(@"微信朋友圈分享网页");
+}
+
+- (void)shareImageModel:(GZImageShareModel *)model{
+    NSLog(@"微信朋友圈分享图片");
 }
 @end

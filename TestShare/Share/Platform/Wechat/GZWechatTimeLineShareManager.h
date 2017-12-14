@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "GZWebPageShareModel.h"
+#import "GZImageShareModel.h"
 
-@interface GZWechatTimeLineShareManager : NSObject<GZWebPageShareProtocol>
+@interface GZWechatTimeLineShareManager : NSObject<GZWebPageShareProtocol,GZImageShareModelProtocol>
 
 @end
